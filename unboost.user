@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         Minds.com unboost
+// @version      0.1
+// @author       aeupe
+// @match        https://www.minds.com/newsfeed*
+// @grant        none
+// @require http://code.jquery.com/jquery-latest.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    $( document ).on("DOMNodeInserted", function(){
+        $(".is-boosted").parent()
+           .css("display", "none");
+    });
+})();
