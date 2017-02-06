@@ -9,7 +9,8 @@
 
 (function() {
     'use strict';
-    $( document ).on("DOMNodeInserted", function(){
+    $(document).on("DOMNodeInserted", function(){
+		$(".m-boost-rotator-tabs").css("display", "none");
         $(".is-boosted").parent()
            .css("display", "none");
     });
