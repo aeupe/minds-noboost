@@ -2,16 +2,16 @@
 // @name         Minds.com unboost
 // @version      0.1
 // @author       aeupe
-// @match        https://www.minds.com/newsfeed*
+// @match        https://www.minds.com*
 // @grant        none
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
 (function() {
-	'use strict';
-	$(document).on("DOMNodeInserted", function(){
-		$(".m-boost-rotator-tabs").css("display", "none");
-		$(".is-boosted").parent()
-			.css("display", "none");
-	});
+    'use strict';
+    $(document).on("DOMNodeInserted", function(){
+	$("minds-newsfeed-boost-rotator").css("display", "none", "important");
+        $("minds-newsfeed .is-boosted").parent()
+           .css("display", "none");
+    });
 })();
