@@ -14,5 +14,5 @@
         $("minds-newsfeed .is-boosted").parent()
            .css("display", "none");
     });
-    $("m-ads-boost").css("display", "none");
+    $("m-ads-boost").css("display", "none", "important");
 })();
