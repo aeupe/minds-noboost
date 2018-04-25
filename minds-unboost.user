@@ -10,9 +10,7 @@
 (function() {
     'use strict';
     $(document).on("DOMNodeInserted", function(){
-	    $("minds-newsfeed-boost-rotator").css("display", "none", "important");
-        $("minds-newsfeed .is-boosted").parent()
-           .css("display", "none");
-        $("m-ads-boost").css("display", "none", "important");
+	    $("m-newsfeed--boost-rotator").css("display", "none", "important");
+      $("m-ads-boost").css("display", "none", "important");
     });
 })();
