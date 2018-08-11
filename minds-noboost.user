@@ -4,7 +4,7 @@
 // @author       aeupe
 // @match        https://www.minds.com/*
 // @grant        none
-// @require      http://code.jquery.com/jquery-latest.js
+// @require      https://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
 (function() {
