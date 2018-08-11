@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Minds.com unboost
+// @name         minds-noboost
 // @version      0.1
 // @author       aeupe
 // @match        https://www.minds.com/*
